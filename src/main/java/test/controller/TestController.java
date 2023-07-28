@@ -19,6 +19,7 @@ public class TestController extends HttpServlet {
 		req.setAttribute("nickname", xxx);
 		req.getRequestDispatcher("/index.jsp").forward(req, resp);
 		System.out.println("happy Friday");
+		System.out.println("happy weekend");
 	}
 
 }
